@@ -2,10 +2,10 @@
 #!/usr/bin/env python3
 
 
-__author__ = "Wnein "
-__license__ = "almarri"
+__author__ = "xuyri "
+__license__ = "del4m"
 __version__ = "1.5.0"
-__status__ = "Wnein Almarri"
+__status__ = "xuyri.del4m"
 
 from requests.sessions import Session
 from requests import get
@@ -14,12 +14,16 @@ from multiprocessing import Process
 from colorama import init,Style,Fore
 
 BANNER = """
-  dBBBBBBP dBP dBP  dBBBBBBP    dBP dBBBBb.dBBBBP dBBBBBBP dBBBBBb       .dBBBBP dBBBBBb dBBBBBb     dBBBBBBb
-                                       dBPBP                    BB       BP          dB'      BB      '   dB'
-   dBP   dBBBBBP     dBP      dBP dBP dBP `BBBBb   dBP      dBP BB       `BBBBb  dBBBP'   dBP BB   dB'dB'dB' 
-  dBP   dBP dBP     dBP      dBP dBP dBP     dBP  dBP      dBP  BB          dBP dBP      dBP  BB  dB'dB'dB'  
- dBP   dBP dBP     dBP      dBP dBP dBP dBBBBP'  dBP      dBBBBBBB     dBBBBP' dBP      dBBBBBBB dB'dB'dB'   
-    BY: Wnein almarri
+              )
+           ( /(
+           )\())   (   (     (   (
+          ((_)\   ))\  )\ )  )(  )\
+          __((_) /((_)(()/( (()\((_)
+          \ \/ /(_))(  )(_)) ((_)(_)
+           >  < | || || || || '_|| |
+          /_/\_\ \_,_| \_, ||_|  |_|
+                       |__/
+    BY: xuyri
 """
 
 USER_AGENTS = ["Mozilla/5.0 (Android 4.4; Mobile; rv:41.0) Gecko/41.0 Firefox/41.0",
