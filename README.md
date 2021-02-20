@@ -1,7 +1,7 @@
 # instaspam
 Spam Instagram with Proxy python
  $ Install for Termux 
- Git clone https://github.com/wnein/instaspam
+ Git clone https://github.com/tabwtt/instaspam
  nano list.txt And put inside list.txt
  Username:Password
  Like : nfrn:123r44
