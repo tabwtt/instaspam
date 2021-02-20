@@ -2,10 +2,10 @@
 #!/usr/bin/env python3
 
 
-__author__ = "Wnein "
-__license__ = "almarri"
+__author__ = "xuyri "
+__license__ = "m "
 __version__ = "1.5.0"
-__status__ = "Wnein Almarri"
+__status__ = "xuyri m "
 
 from random import choice
 from multiprocessing import Process
@@ -16,13 +16,7 @@ try:
 except:
     print("'requests' must install 'pip3 install requests' ")
 
-BANNER = """
-  dBBBBBBP dBP dBP  dBBBBBBP    dBP dBBBBb.dBBBBP dBBBBBBP dBBBBBb       .dBBBBP dBBBBBb dBBBBBb     dBBBBBBb
-                                       dBPBP                    BB       BP          dB'      BB      '   dB'
-   dBP   dBBBBBP     dBP      dBP dBP dBP `BBBBb   dBP      dBP BB       `BBBBb  dBBBP'   dBP BB   dB'dB'dB' 
-  dBP   dBP dBP     dBP      dBP dBP dBP     dBP  dBP      dBP  BB          dBP dBP      dBP  BB  dB'dB'dB'  
- dBP   dBP dBP     dBP      dBP dBP dBP dBBBBP'  dBP      dBBBBBBB     dBBBBP' dBP      dBBBBBBB dB'dB'dB'   
-    Yapımcı: Hichigo THT   Sürüm: Renksiz
+BANNER = """xuyri
 """
 
 USER_AGENTS = ["Mozilla/5.0 (Android 4.4; Mobile; rv:41.0) Gecko/41.0 Firefox/41.0",
@@ -38,8 +32,8 @@ class Client:
     def __init__(self,username,password,proxy):
         self.ses = Session()
         self.loggedIn = False
-        self.username = username
-        self.password = password
+        self.username = userakat bnusa
+        self.password = passwordakat bnusa
         self.proxy = proxy
     
     def Login(self):
@@ -47,8 +41,8 @@ class Client:
             return None
         
         loginData = {
-            "password":self.password,
-            "username":self.username,
+            "password":self.passwordakat bnusa,
+            "username":self.userakat bnusa,
             "queryParams":"{}"
         }
         homePageResponse = self.ses.get("https://www.instagram.com/accounts/login/")
